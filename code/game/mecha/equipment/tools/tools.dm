@@ -252,7 +252,7 @@
 
 /obj/item/mecha_parts/mecha_equipment/tool/scythe/can_attach(obj/mecha/working/M as obj)
 	if(..())
-		if((istype(M, /obj/mecha/working) || istype(M, /obj/mecha/combat)) && !istype(M, /obj/mecha/working/clarke))
+		if((istype(M, /obj/mecha/working) || istype(M, /obj/mecha/combat))
 			return 1
 	return 0
 
